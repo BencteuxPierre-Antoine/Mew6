@@ -1,0 +1,46 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/victories",
+	"version": "0.1.0",
+	"title": "Fake Victories",
+	"category": "widgets",
+	"icon": "visibility",
+	"description": "Example block written with ESNext standard and JSX support – build step required.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+    "content": {
+      "type": "array"
+    },
+    "section": {
+      "type": "string"
+    },
+    "artist": {
+      "type": "string"
+    },
+    "album": {
+      "type": "string"
+    },
+    "date": {
+      "type": "integer"
+    },
+    "style": {
+      "type": "string"
+    },
+    "more": {
+      "type": "string"
+    },
+    "imgId": {
+      "type": "integer"
+    },
+    "imgURL": {
+      "type": "string"
+    }
+  },
+	"textdomain": "gutenpride",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
