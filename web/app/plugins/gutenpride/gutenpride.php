@@ -34,7 +34,7 @@ function victories($attrs) {
 }
 
 function create_block_gutenpride_block_init() {
-	register_block_type( __DIR__ . '/build/dlApp' );
+	register_block_type( __DIR__ . '/build/dlapp' );
 	register_block_type( __DIR__ . '/build/text-field' );
 	register_block_type( __DIR__ . '/build/repeater' );
 	register_block_type( __DIR__ . '/build/text-image' );

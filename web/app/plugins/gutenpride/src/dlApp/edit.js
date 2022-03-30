@@ -36,30 +36,30 @@ export default function Edit( {attributes, setAttributes} ) {
 		<div {...useBlockProps()}>
 			<PlainText
 				placeholder={__('Section Title')}
-				value={attributes?.section}
-				onChange={(section) => {
-					setAttributes({section})
+				value={attributes?.dlSection}
+				onChange={(dlSection) => {
+					setAttributes({dlSection})
 				}}
 			/>
 			<PlainText
-				placeholder={__('Description')}
-				value={attributes?.description}
-				onChange={(desc) => {
-					setAttributes({desc})
+				placeholder={__('dlDescription')}
+				value={attributes?.dlDescription}
+				onChange={(dlDescription) => {
+					setAttributes({dlDescription})
 				}}
 			/>
 			<PlainText
-				placeholder={__('Button')}
-				value={attributes?.dlBut}
-				onChange={(dlBut) => {
-					setAttributes({dlBut})
+				placeholder={__('dLBut')}
+				value={attributes?.dLBut}
+				onChange={(dLBut) => {
+					setAttributes({dLBut})
 				}}
 			/>
 			<MediaUploadCheck>
 				<MediaUpload
-					onSelect={(media) => setAttributes({ imgURL: media.url, imgId: media.id })}
+					onSelect={(media) => setAttributes({ dlURL: media.url, dlId: media.id })}
 					allowedTypes={ ALLOWED_MEDIA_TYPES }
-					value={ attributes?.imgId }
+					value={ attributes?.dlId }
 					render={ ( { open } ) => (
 						<Button onClick={ open }>{__('Replace the image')}</Button>
 					) }

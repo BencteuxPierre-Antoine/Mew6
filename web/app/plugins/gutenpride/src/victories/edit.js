@@ -10,18 +10,14 @@ export default function Edit( { attributes, setAttributes } ) {
 				placeholder={__('Section Title')}
 				value={attributes.section}
 				onChange={(section) => {
-					const newContent = [...content]
-					newContent[index].section = section
-					setAttributes({ content: newContent })
+					setAttributes({section})
 				}}
 			/>
 			<PlainText
 				placeholder={__('More button')}
 				value={attributes.more}
 				onChange={(more) => {
-					const newContent = [...content]
-					newContent[index].more = more
-					setAttributes({ content: newContent })
+					setAttributes({more})
 				}}
 			/>
 		</div>

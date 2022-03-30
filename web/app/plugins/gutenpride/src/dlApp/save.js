@@ -22,15 +22,15 @@ import { useBlockProps } from '@wordpress/block-editor';
  *
  * @return {WPElement} Element to render.
  */
-export default function save({attributes}) {
+export default function save({attributes, setAttributes}) {
 	return (
-		<div class="dlApp flex relative backG-White">
-	        <div class="dlApp-txt relative blue">
-	            <p class="s42 bold darkBlue"> {attributes?.section} </p>
-	            <p class="darkBlue"> {attributes?.desc} </p>
-	            <button class="button-pink white"> {attributes?.dlBut} </button>
-	        </div>
-	        <img class="dlApp-img relative" src={attributes?.imgURL} />>
-	    </div>
+		<div className="dlApp flex relative backG-White">
+        <div className="dlApp-txt relative blue">
+            <p className="s42 bold darkBlue"> {attributes?.dlSection} </p>
+            <p className="darkBlue"> {attributes?.dlDescription} </p>
+            <button className="button-pink white"> {attributes?.dlBut} </button>
+        </div>
+        <img className="dlApp-img relative" src={attributes?.dlURL} />
+    </div>
 	);
 }

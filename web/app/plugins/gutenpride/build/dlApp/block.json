@@ -11,19 +11,19 @@
 		"html": false
 	},
 	"attributes": {
-		"section": {
+		"dlSection": {
 			"type": "string"
 		},
-		"desc": {
+		"dlDescription": {
 			"type": "string"
 		},
-		"dlBut": {
+		"dLBut": {
 			"type": "string"
 		},
-		"imgId": {
+		"dlId": {
 			"type": "integer"
 		},
-		"imgURL": {
+		"dlURL": {
 			"type": "string"
 		}
 	},
