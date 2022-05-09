@@ -78,11 +78,11 @@ function Edit(_ref) {
       });
     }
   }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.PlainText, {
-    placeholder: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('dLBut'),
-    value: attributes === null || attributes === void 0 ? void 0 : attributes.dLBut,
-    onChange: dLBut => {
+    placeholder: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Download button'),
+    value: attributes === null || attributes === void 0 ? void 0 : attributes.dlBut,
+    onChange: dlBut => {
       setAttributes({
-        dLBut
+        dlBut
       });
     }
   }), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.MediaUploadCheck, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.MediaUpload, {
@@ -210,7 +210,8 @@ function save(_ref) {
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "dlApp-txt relative blue"
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
-    className: "s42 bold darkBlue"
+    className: "s42 bold darkBlue",
+    style: "width: 500px"
   }, " ", attributes === null || attributes === void 0 ? void 0 : attributes.dlSection, " "), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
     className: "darkBlue"
   }, " ", attributes === null || attributes === void 0 ? void 0 : attributes.dlDescription, " "), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("button", {

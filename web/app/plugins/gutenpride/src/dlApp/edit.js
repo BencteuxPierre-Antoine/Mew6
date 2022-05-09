@@ -49,10 +49,10 @@ export default function Edit( {attributes, setAttributes} ) {
 				}}
 			/>
 			<PlainText
-				placeholder={__('dLBut')}
-				value={attributes?.dLBut}
-				onChange={(dLBut) => {
-					setAttributes({dLBut})
+				placeholder={__('Download button')}
+				value={attributes?.dlBut}
+				onChange={(dlBut) => {
+					setAttributes({dlBut})
 				}}
 			/>
 			<MediaUploadCheck>

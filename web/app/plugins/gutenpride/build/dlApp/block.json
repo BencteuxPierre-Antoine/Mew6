@@ -17,7 +17,7 @@
 		"dlDescription": {
 			"type": "string"
 		},
-		"dLBut": {
+		"dlBut": {
 			"type": "string"
 		},
 		"dlId": {

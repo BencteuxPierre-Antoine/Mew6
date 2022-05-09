@@ -26,7 +26,7 @@ export default function save({attributes, setAttributes}) {
 	return (
 		<div className="dlApp flex relative backG-White">
         <div className="dlApp-txt relative blue">
-            <p className="s42 bold darkBlue"> {attributes?.dlSection} </p>
+            <p className="s42 bold darkBlue" style="width: 500px"> {attributes?.dlSection} </p>
             <p className="darkBlue"> {attributes?.dlDescription} </p>
             <button className="button-pink white"> {attributes?.dlBut} </button>
         </div>
